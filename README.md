@@ -6,33 +6,39 @@
     <title>Jovani S. Caspe - Resume</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            margin: 20px;
-            line-height: 1.6;
-            color: #333;
+            font-family: 'Roboto', sans-serif; /* Or another suitable font */
+            margin: 0; /* Clear all default margins */
+            line-height: 1;
+            color: #fff; /* Text color set to white */
+            background-image: url("kidlat.jpg"); /* Example background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            text-align: justify; /* Justify text alignment */
         }
         header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 2px;
         }
         header img {
             border-radius: 50%;
             width: 150px;
             height: 150px;
-            margin-bottom: 15px;
-            border: 3px solid #007bff; /* Blue border */
+            margin-bottom: 1px;
+            border: 3px solid #06660; /* Blue border */
         }
         h1 {
             color: #007bff; /* Blue header */
-            font-size: 2.5em;
+            font-size: 2em;
         }
         h2 {
             color: #007bff; /* Blue section headings */
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 1px;
         }
         section {
-            margin-bottom: 25px;
+            margin-bottom: 0; /* Clear margin-bottom */
+            padding: 5px;
+            border-bottom: 1px solid #ddd;
         }
         ul {
             list-style-type: disc;
@@ -43,17 +49,13 @@
         }
         address {
             font-style: normal;
-            color: #555;
+            color: #fff; /* Address text color set to white */
         }
         .highlight {
-            color: #007bff; /*Highlight important words*/
+            color: #007bff; /* Highlight important words */
         }
-        /* Add a subtle background gradient */
-        body {
-            background: linear-gradient(to bottom right, #f0f0f0, #fff);
-        }
-
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -64,61 +66,49 @@
             <p>09949767086</p>
         </address>
     </header>
-
     <section>
-        <h2>Summary</h2>
-        <p>Highly motivated and detail-oriented individual with experience in [mention relevant skills or experiences briefly].  Eager to learn and contribute to a challenging and rewarding role in a <span class="highlight">dynamic team</span>.</p>
+        <h2>Objective</h2>
+        <p>Highly motivated and detail-oriented individual with experience in Eager to learn and contribute to a challenging and rewarding role.</p>
     </section>
-
     <section>
         <h2>Education</h2>
         <ul>
-            <li><strong>Zamboanga Del Sur - Provincial Government College - ZDS-PGC</strong> (Years Attended) - [Program of Study], [GPA (if applicable)]</li>
-            <li><strong>Tukuran Technical Vocational High School</strong> (Years Attended) - [Diploma/Certificate Earned]</li>
-            <li><strong>Sugod Elementary School</strong> (Years Attended)</li>
+            <li><strong>Zamboanga Del Sur - Provincial Government College - ZDS-PGC</strong> (2018-2022) - Bachelor of Science in [Your Major], [Your GPA]</li>
+            <li><strong>Tukuran Technical Vocational High School</strong> (2014-2018) - [Your Diploma/Certificate]</li>
+            <li><strong>Sugod Elementary School</strong> (2008-2014)</li>
         </ul>
     </section>
-
     <section>
         <h2>Skills</h2>
         <ul>
-            <li><strong>Software Proficiency:</strong> Microsoft Office Suite (Word, Excel, PowerPoint), [Graphic Editing Software:  Adobe Photoshop, GIMP, etc.], [Photography Software - specify]</li>
-            <li><strong>Technical Skills:</strong> Electrical Wiring (Describe your level of expertise - e.g., proficient in residential wiring, familiar with basic electrical codes)</li>
-            <li>Other Relevant Skills: [Add any other skills, e.g., teamwork, communication, problem-solving], <span class="highlight">Adaptability</span>, <span class="highlight">Time Management</span></li>
+            <li><strong>Software Proficiency:</strong> Microsoft Office Suite (Word, Excel, PowerPoint)</li>
         </ul>
     </section>
-
     <section>
         <h2>Experience</h2>
         <ul>
-            <!-- Add your work experience here -->
-            <li><strong>[Job Title]</strong> at [Company Name] (Dates of Employment)
+            <li><strong> flash express </strong> at [2020_2022]
                 <ul>
-                  <li>Responsibility 1</li>
-                  <li>Responsibility 2</li>
+                    <li> supervisor </li>
                 </ul>
             </li>
         </ul>
     </section>
-
-
     <section>
         <h2>Personal Information</h2>
         <ul>
             <li>Birthdate: February 12, 2005</li>
             <li>Birthplace: Militar, Tukuran, Zamboanga Del Sur</li>
-            <li>Age: 20</li>
+            <li>Age: 18</li>
             <li>Weight: 60kg</li>
             <li>Mother: Arlenda Caspe</li>
             <li>Father: Jerry Caspe</li>
         </ul>
     </section>
-
     <section>
         <h2>References</h2>
-        <p>Cebu City.</p>
-        <p>Jerylyn Caspe.</p>
+        <p>[Jerylyn caspe], [teacher], [09469572527]</p>
+        <p>[Noah ice], mechanical engineer [09861683861]</p>
     </section>
-
 </body>
 </html>
